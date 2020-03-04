@@ -19,10 +19,20 @@ public class StorageQuickStart : MonoBehaviour {
     // Start is called before the first frame update
     void Start() {
         Login();
+        Query();
     }
 
     async Task Login() {
         await LCUser.Login("hello", "world");
+    }
+
+    async Task Query() {
+        LCQuery<LCObject> query = new LCQuery<LCObject>("Hello");
+        query.Limit(2);
+        List<LCObject> list = await query.Find();
+        foreach (LCObject obj in list) {
+            Debug.Log($"object id: {obj.ObjectId}");
+        }
     }
 
     void Print(LogLevel level, string message) {

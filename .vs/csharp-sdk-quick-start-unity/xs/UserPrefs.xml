@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{6F4887CD-5B60-0CE7-6A0D-8A00310EF13D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/StorageQuickStart.cs">
+    <Files>
+      <File FileName="Assets/Scenes/StorageQuickStart.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="csharp-sdk-quick-start-unity" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scenes" expanded="True">
+                <Node name="StorageQuickStart.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bb0e09fc-0696-456f-91b1-c01226fcbc3f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
